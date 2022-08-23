@@ -31,7 +31,7 @@ const Footer = () => {
                 }
             </section>
             <div className="footerGot-rights">
-                <p>© 2022 Winter Child. All rights reserved.</p>
+                <p>© 2022 Andrea Páez. All rights reserved.</p>
             </div>
         </div>
     );
