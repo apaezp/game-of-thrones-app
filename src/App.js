@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import Home from './components/Home.js';
+import Characters from './components/Characters';
+import Books from './components/Books';
+import TvSeries from './components/TvSeries';
+import Footer from './components/Footer';
 import './App.css';
+import Navbar from './components/Navbar';
+import ScrollToTop from './components/ScrollToTop';
+import SignUp from './components/SignUp.js';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Search from './components/Search';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <BrowserRouter>
+    <Navbar />    
+    <ScrollToTop />
+    <Routes>
+          <Route path='/' element={<Home />} />        
+
+          <Route path='/Characters' element={<Characters />} />
+          <Route path='/Books' element={<Books />} />
+          <Route path='/TvSeries' element={<TvSeries />} />
+          <Route path='/Footer' element={<Footer />} />
+          <Route path="pages/SignUp" element={<SignUp />} />
+          <Route path='/Search' element={<Search />} />
+
+        </Routes>
+    </BrowserRouter>
+
+    </>
   );
 }
 
