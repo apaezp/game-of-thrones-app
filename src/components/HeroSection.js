@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { FaSearch } from 'react-icons/fa';
 
 
-export default function HeroSectionGot() {
+export default function HeroSection() {
   return (
     <div className='heroGradient'>
   <div className="hero-containerGot"> 
@@ -13,7 +13,7 @@ export default function HeroSectionGot() {
           <h1>"Never forget what you are. The rest of the world will not. Wear it like armor, and it can never be used to hurt you."</h1>
           <p>— Tyrion Lannister.</p>
           <div className="hero-btns">
-          <Link to='./CharactersGot' className='btn-mobile'>
+          <Link to='./Characters' className='btn-mobile'>
             <Button
               className="btns"
               buttonStyle="btn--outline"
@@ -49,7 +49,7 @@ export default function HeroSectionGot() {
               Quotes
             </Button>
             </Link>
-            <Link to='./Search' className='btn-mobile'>
+            <Link to='./MyApi' className='btn-mobile'>
             <Button
               className="btns"
               buttonStyle="btn--primary"

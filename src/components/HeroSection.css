@@ -17,9 +17,10 @@
   }
   
   .hero-containerGot > h1 {
+    display: flex;
     color: #fff;
     font-size: 60px;
-  
+    text-align: center;
     font-family: "Cinzel", serif;
   }
   

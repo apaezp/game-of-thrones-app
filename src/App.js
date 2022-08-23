@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
 import SignUp from './components/SignUp.js';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Search from './components/Search';
+import MyApi from './components/MyApi';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
           <Route path='/TvSeries' element={<TvSeries />} />
           <Route path='/Footer' element={<Footer />} />
           <Route path="pages/SignUp" element={<SignUp />} />
-          <Route path='/Search' element={<Search />} />
+          <Route path='/MyApi' element={<MyApi />} />
 
         </Routes>
     </BrowserRouter>
