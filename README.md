@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Winter Child: A GOT Fandom Page
+
+Website: https://winter-child.netlify.app/
+Video: 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
