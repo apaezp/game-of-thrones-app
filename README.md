@@ -1,7 +1,7 @@
 # Winter Child: A GOT Fandom Page
 
 Website: https://winter-child.netlify.app/
-Video: 
+Video: https://youtu.be/QfCjA8ndBq8
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
